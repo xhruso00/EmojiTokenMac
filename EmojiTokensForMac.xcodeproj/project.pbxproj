@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22F1EF61F7963DE006FFC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1EF51F7963DE006FFC35 /* AppDelegate.m */; };
+		D22F1EF91F7963DE006FFC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1EF81F7963DE006FFC35 /* ViewController.m */; };
+		D22F1EFB1F7963DE006FFC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22F1EFA1F7963DE006FFC35 /* Assets.xcassets */; };
+		D22F1EFE1F7963DE006FFC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22F1EFC1F7963DE006FFC35 /* Main.storyboard */; };
+		D22F1F011F7963DE006FFC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1F001F7963DE006FFC35 /* main.m */; };
+		D22F1F0C1F7963DE006FFC35 /* EmojiTokensForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1F0B1F7963DE006FFC35 /* EmojiTokensForMacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22F1F081F7963DE006FFC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22F1EE91F7963DE006FFC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22F1EF01F7963DE006FFC35;
+			remoteInfo = EmojiTokensForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D22F1EF11F7963DE006FFC35 /* EmojiTokensForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiTokensForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22F1EF41F7963DE006FFC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D22F1EF51F7963DE006FFC35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D22F1EF71F7963DE006FFC35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D22F1EF81F7963DE006FFC35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D22F1EFA1F7963DE006FFC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22F1EFD1F7963DE006FFC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22F1EFF1F7963DE006FFC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22F1F001F7963DE006FFC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D22F1F021F7963DE006FFC35 /* EmojiTokensForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmojiTokensForMac.entitlements; sourceTree = "<group>"; };
+		D22F1F071F7963DE006FFC35 /* EmojiTokensForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiTokensForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22F1F0B1F7963DE006FFC35 /* EmojiTokensForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiTokensForMacTests.m; sourceTree = "<group>"; };
+		D22F1F0D1F7963DE006FFC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22F1EEE1F7963DE006FFC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22F1F041F7963DE006FFC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22F1EE81F7963DE006FFC35 = {
+			isa = PBXGroup;
+			children = (
+				D22F1EF31F7963DE006FFC35 /* EmojiTokensForMac */,
+				D22F1F0A1F7963DE006FFC35 /* EmojiTokensForMacTests */,
+				D22F1EF21F7963DE006FFC35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22F1EF21F7963DE006FFC35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22F1EF11F7963DE006FFC35 /* EmojiTokensForMac.app */,
+				D22F1F071F7963DE006FFC35 /* EmojiTokensForMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22F1EF31F7963DE006FFC35 /* EmojiTokensForMac */ = {
+			isa = PBXGroup;
+			children = (
+				D22F1EF41F7963DE006FFC35 /* AppDelegate.h */,
+				D22F1EF51F7963DE006FFC35 /* AppDelegate.m */,
+				D22F1EF71F7963DE006FFC35 /* ViewController.h */,
+				D22F1EF81F7963DE006FFC35 /* ViewController.m */,
+				D22F1EFA1F7963DE006FFC35 /* Assets.xcassets */,
+				D22F1EFC1F7963DE006FFC35 /* Main.storyboard */,
+				D22F1EFF1F7963DE006FFC35 /* Info.plist */,
+				D22F1F001F7963DE006FFC35 /* main.m */,
+				D22F1F021F7963DE006FFC35 /* EmojiTokensForMac.entitlements */,
+			);
+			path = EmojiTokensForMac;
+			sourceTree = "<group>";
+		};
+		D22F1F0A1F7963DE006FFC35 /* EmojiTokensForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				D22F1F0B1F7963DE006FFC35 /* EmojiTokensForMacTests.m */,
+				D22F1F0D1F7963DE006FFC35 /* Info.plist */,
+			);
+			path = EmojiTokensForMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22F1EF01F7963DE006FFC35 /* EmojiTokensForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22F1F101F7963DE006FFC35 /* Build configuration list for PBXNativeTarget "EmojiTokensForMac" */;
+			buildPhases = (
+				D22F1EED1F7963DE006FFC35 /* Sources */,
+				D22F1EEE1F7963DE006FFC35 /* Frameworks */,
+				D22F1EEF1F7963DE006FFC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiTokensForMac;
+			productName = EmojiTokensForMac;
+			productReference = D22F1EF11F7963DE006FFC35 /* EmojiTokensForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22F1F061F7963DE006FFC35 /* EmojiTokensForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22F1F131F7963DE006FFC35 /* Build configuration list for PBXNativeTarget "EmojiTokensForMacTests" */;
+			buildPhases = (
+				D22F1F031F7963DE006FFC35 /* Sources */,
+				D22F1F041F7963DE006FFC35 /* Frameworks */,
+				D22F1F051F7963DE006FFC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22F1F091F7963DE006FFC35 /* PBXTargetDependency */,
+			);
+			name = EmojiTokensForMacTests;
+			productName = EmojiTokensForMacTests;
+			productReference = D22F1F071F7963DE006FFC35 /* EmojiTokensForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22F1EE91F7963DE006FFC35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Marek Hrušovský";
+				TargetAttributes = {
+					D22F1EF01F7963DE006FFC35 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D22F1F061F7963DE006FFC35 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D22F1EF01F7963DE006FFC35;
+					};
+				};
+			};
+			buildConfigurationList = D22F1EEC1F7963DE006FFC35 /* Build configuration list for PBXProject "EmojiTokensForMac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22F1EE81F7963DE006FFC35;
+			productRefGroup = D22F1EF21F7963DE006FFC35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22F1EF01F7963DE006FFC35 /* EmojiTokensForMac */,
+				D22F1F061F7963DE006FFC35 /* EmojiTokensForMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22F1EEF1F7963DE006FFC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22F1EFB1F7963DE006FFC35 /* Assets.xcassets in Resources */,
+				D22F1EFE1F7963DE006FFC35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22F1F051F7963DE006FFC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22F1EED1F7963DE006FFC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22F1EF91F7963DE006FFC35 /* ViewController.m in Sources */,
+				D22F1F011F7963DE006FFC35 /* main.m in Sources */,
+				D22F1EF61F7963DE006FFC35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22F1F031F7963DE006FFC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22F1F0C1F7963DE006FFC35 /* EmojiTokensForMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D22F1F091F7963DE006FFC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22F1EF01F7963DE006FFC35 /* EmojiTokensForMac */;
+			targetProxy = D22F1F081F7963DE006FFC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D22F1EFC1F7963DE006FFC35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22F1EFD1F7963DE006FFC35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22F1F0E1F7963DE006FFC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D22F1F0F1F7963DE006FFC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D22F1F111F7963DE006FFC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EmojiTokensForMac/EmojiTokensForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = EmojiTokensForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.EmojiTokensForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D22F1F121F7963DE006FFC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EmojiTokensForMac/EmojiTokensForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = EmojiTokensForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.EmojiTokensForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D22F1F141F7963DE006FFC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = EmojiTokensForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.EmojiTokensForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiTokensForMac.app/Contents/MacOS/EmojiTokensForMac";
+			};
+			name = Debug;
+		};
+		D22F1F151F7963DE006FFC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = EmojiTokensForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrubasko.EmojiTokensForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiTokensForMac.app/Contents/MacOS/EmojiTokensForMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22F1EEC1F7963DE006FFC35 /* Build configuration list for PBXProject "EmojiTokensForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22F1F0E1F7963DE006FFC35 /* Debug */,
+				D22F1F0F1F7963DE006FFC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22F1F101F7963DE006FFC35 /* Build configuration list for PBXNativeTarget "EmojiTokensForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22F1F111F7963DE006FFC35 /* Debug */,
+				D22F1F121F7963DE006FFC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22F1F131F7963DE006FFC35 /* Build configuration list for PBXNativeTarget "EmojiTokensForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22F1F141F7963DE006FFC35 /* Debug */,
+				D22F1F151F7963DE006FFC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22F1EE91F7963DE006FFC35 /* Project object */;
+}
