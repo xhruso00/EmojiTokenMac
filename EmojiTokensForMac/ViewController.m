@@ -2,6 +2,8 @@
 #import <dlfcn.h>
 #import "EMFEmojiLocaleData.h"
 #import "EMFEmojiToken.h"
+#import "EMTextEnumerator.h"
+#import "EMEmojiTokenList.h"
 
 static void *libEmojiHandle;
 static void *libPickerHandle;
@@ -113,11 +115,22 @@ static void *libPickerHandle;
     return [mutString copy];
 }
 
+- (void)test
+{
+    EMTextEnumerator *enumerator = [[EMTextEnumerator alloc] init];
+    NSString *string = @"Love Icecream";
+    NSRange range = NSMakeRange(0, string.length);
+    [enumerator enumerateEmojiSignifiersInString:@"Love Icecream" touchingRange:range language:@"en-US" usingBlock:^(EMEmojiTokenList *list, NSRange range){
+        NSLog(@" %@ %@",NSStringFromRange(range), list);
+    }];
+}
+
 - (IBAction)didChange:(id)sender
 {
     [self updateiOSResults];
     [self updateMacResults];
     [self updateCustomResults];
+    [self test];
 }
 
 - (IBAction)didChangeLocale:(id)sender
@@ -129,12 +142,12 @@ static void *libPickerHandle;
 
 - (void)controlTextDidChange:(NSNotification *)notification
 {
-    
     [self didChange:self];
 }
 
 - (BOOL)control:(NSControl *)control textView:(NSTextView *)textView doCommandBySelector:(SEL)commandSelector
 {
+    
     if ([control isEqualTo:[self optionsTextField]] || [control isEqualTo:[self searchTypeTextField]]) {
         if (commandSelector == @selector(moveUp:) || commandSelector == @selector(moveDown:)) {
             NSDictionary *options = [control infoForBinding:NSValueBinding];

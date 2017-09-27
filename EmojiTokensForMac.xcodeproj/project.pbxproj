@@ -14,6 +14,8 @@
 		D22F1F011F7963DE006FFC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1F001F7963DE006FFC35 /* main.m */; };
 		D22F1F0C1F7963DE006FFC35 /* EmojiTokensForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F1F0B1F7963DE006FFC35 /* EmojiTokensForMacTests.m */; };
 		D23937B11F7A57C2002F77B1 /* EmojiFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23937B01F7A57C2002F77B1 /* EmojiFoundation.framework */; };
+		D23937B41F7A9E39002F77B1 /* EMEmojiTokenList.m in Sources */ = {isa = PBXBuildFile; fileRef = D23937B31F7A9E39002F77B1 /* EMEmojiTokenList.m */; };
+		D23937B71F7B96D1002F77B1 /* EMTextEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D23937B61F7B96D1002F77B1 /* EMTextEnumerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		D23937AD1F7A5172002F77B1 /* EMFStringUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFStringUtilities.h; sourceTree = "<group>"; };
 		D23937AE1F7A5172002F77B1 /* NSString-EMFEmojiExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString-EMFEmojiExtras.h"; sourceTree = "<group>"; };
 		D23937B01F7A57C2002F77B1 /* EmojiFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EmojiFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/EmojiFoundation.framework; sourceTree = "<group>"; };
+		D23937B21F7A9E39002F77B1 /* EMEmojiTokenList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMEmojiTokenList.h; sourceTree = "<group>"; };
+		D23937B31F7A9E39002F77B1 /* EMEmojiTokenList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMEmojiTokenList.m; sourceTree = "<group>"; };
+		D23937B51F7B96D1002F77B1 /* EMTextEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMTextEnumerator.h; sourceTree = "<group>"; };
+		D23937B61F7B96D1002F77B1 /* EMTextEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTextEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 				D23937A51F7A5172002F77B1 /* EmojiHeaders */,
 				D22F1EF41F7963DE006FFC35 /* AppDelegate.h */,
 				D22F1EF51F7963DE006FFC35 /* AppDelegate.m */,
+				D23937B21F7A9E39002F77B1 /* EMEmojiTokenList.h */,
+				D23937B31F7A9E39002F77B1 /* EMEmojiTokenList.m */,
+				D23937B51F7B96D1002F77B1 /* EMTextEnumerator.h */,
+				D23937B61F7B96D1002F77B1 /* EMTextEnumerator.m */,
 				D22F1EF71F7963DE006FFC35 /* ViewController.h */,
 				D22F1EF81F7963DE006FFC35 /* ViewController.m */,
 				D22F1EFA1F7963DE006FFC35 /* Assets.xcassets */,
@@ -241,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23937B41F7A9E39002F77B1 /* EMEmojiTokenList.m in Sources */,
 				D22F1EF91F7963DE006FFC35 /* ViewController.m in Sources */,
+				D23937B71F7B96D1002F77B1 /* EMTextEnumerator.m in Sources */,
 				D22F1F011F7963DE006FFC35 /* main.m in Sources */,
 				D22F1EF61F7963DE006FFC35 /* AppDelegate.m in Sources */,
 			);
