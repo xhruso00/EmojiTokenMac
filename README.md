@@ -25,3 +25,14 @@ Block based approach:
     }];
 @end
 ```
+
+EMTextEnumerator == EMKTextEnumerator
+
+```objective-c
+    EMTextEnumerator *enumerator = [[EMTextEnumerator alloc] init];
+    NSString *string = @"Love Icecream";
+    NSRange range = NSMakeRange(0, string.length);
+    [enumerator enumerateEmojiSignifiersInString:@"Love Icecream" touchingRange:range language:@"en-US" usingBlock:^(EMEmojiTokenList *list, NSRange range){
+        NSLog(@" %@ %@",NSStringFromRange(range), list);
+    }];
+```
